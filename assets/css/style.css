@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: lightgray;
+    height: 15rem;
+    width: 30rem;
+    padding: 1rem 2rem;
+}
+
+h1{
+    border-bottom: 1px solid gray;
+}
+
+.instruction{
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    color: #464646;
+}
+
+.input-texto{
+    width: 21rem;
+    height: 1.6rem;
+}
+
+.btn-agregar{
+    background-color: #1b7754;
+    border: none;
+    color: white;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.container-info{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    gap: 2rem;
+}
+
+.info{
+    font-size: 0.8rem;
+    color: rgb(46, 46, 46);
+}
+
+
+.btnx-eliminar{
+    width: 1.5rem;
+    height: 1.2rem;
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    
+}
+
+.input-seleccionar{
+    width: 0.8rem;
+    height: 0.8rem;
+    accent-color: #003cff;
+}
+
+.completada td{
+    color: #003cff;
+}
